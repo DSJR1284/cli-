@@ -1,6 +1,10 @@
-require "cli/version"
 
-module Cli
-  class Error < StandardError; end
-  # Your code goes here...
-end
+Class CLI
+
+    def greeting 
+        puts"Welcome World Warrior"
+    end 
+
+
+
+end 
